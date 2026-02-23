@@ -22,7 +22,7 @@ A Flutter application that shows the **current weather** for any city using a pu
 
 
 ## Screens Overview
-Uploading Screen Recording 2026-02-24 001050.mp4…
+
 
 
 ### HomeScreen
@@ -54,4 +54,5 @@ Steps to Run:
 ```dart
 // Example call in weather_service.dart
 final response = await http.get(Uri.parse("https://api.openweathermap.org/data/2.5/weather?q=$city&appid=YOUR_API_KEY"));
+
 
