@@ -1,4 +1,4 @@
-<img width="352" height="738" alt="image" src="https://github.com/user-attachments/assets/c8a8ab0d-a8ef-41c6-a357-eaa0118b4a61" /># 🌤 Weather App
+ 🌤 Weather App
 
 A Flutter application that shows the **current weather** for any city using a public Weather API. Users can search for a city and get the temperature, weather condition, humidity, and more in a clean and responsive UI.
 
@@ -54,3 +54,4 @@ Steps to Run:
 ```dart
 // Example call in weather_service.dart
 final response = await http.get(Uri.parse("https://api.openweathermap.org/data/2.5/weather?q=$city&appid=YOUR_API_KEY"));
+
